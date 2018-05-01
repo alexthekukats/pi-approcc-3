@@ -21,7 +21,7 @@ namespace ConsoleApplication1
                 pi2 += Math.Pow(pi2, i) / i;
                 pi2 = 4 * Math.Atan(pi2);
                 Console.WriteLine(Math.Abs(pi2/2));
-                Console.ReadKey(); //use enter coz too fast, lel
+                Console.ReadKey();
             }
 
             //Console.WriteLine(pi);
